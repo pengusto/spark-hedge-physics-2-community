@@ -19,6 +19,7 @@
 
 # Local-only upstream asset review; never publish these files.
 /Assets/LocalReview/
+/Assets/LocalReview.meta
 
 # Local source archive and private review material
 .scratch/

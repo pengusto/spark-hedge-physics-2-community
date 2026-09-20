@@ -44,7 +44,10 @@ public sealed class CommunityDemoBootstrap : MonoBehaviour
         controller.PlatformReference = player.transform;
         controller.GroundRayMask = ~0;
         controller.CheckGroundTime = 0.1f;
-        controller.EnableMovement = false;
+        controller.EnableMovement = true;
+
+        var keyboardController = player.AddComponent<DemoKeyboardController>();
+        keyboardController.SetPhysics(controller);
     }
 
     private static void CreateCamera()

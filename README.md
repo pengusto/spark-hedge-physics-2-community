@@ -13,7 +13,7 @@ This is an independent community mirror. It is not an official Feperd Games repo
 - Build a new character, level, or movement prototype without importing Spark character art, stages, audio, or the original game's presentation assets.
 - Use Codex to extend the small demo first, then bring over individual upstream scripts after checking their dependencies.
 
-The active demo has no keyboard controller. It proves the physics loop and gives you a safe starting point for a new input layer. The upstream page says the project uses Unity's Input System after removing its former Rewired setup.
+The active demo includes a small WASD adapter using Unity's Input System. It is intentionally separate from the upstream physics code so the input layer can be replaced later. The upstream page says the original project used Unity's Input System after removing its former Rewired setup.
 
 ## Setup
 
@@ -21,7 +21,7 @@ The active demo has no keyboard controller. It proves the physics loop and gives
 2. Add this repository's root folder in Unity Hub.
 3. Open `Assets/CommunityDemo.unity`.
 4. Press Play. Unity creates the demo objects at runtime.
-5. Add your own input, mesh, camera, animation, and level assets under a license you control.
+5. Use **W/A/S/D** to move the capsule, then add your own input, mesh, camera, animation, and level assets under a license you control.
 
 The original project may take a long time to import. This community project intentionally starts with a small source set so you can iterate before adding larger assets. The `legacy/unity-6000.3.16f1` branch preserves the original project-version setting from the source archive.
 

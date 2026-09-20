@@ -17,6 +17,7 @@ The local review copy is useful for evaluating meshes, materials, characters,
 stages, and presentation. It is not part of the public community mirror and
 does not change the license or redistribution status of those files.
 
-The active demo remains `Assets/CommunityDemo.unity`. Press **Play** to see the
-physics-only capsule test. Movement input is intentionally not wired yet;
-adding an input layer is the next development step.
+The active demo remains `Assets/CommunityDemo.unity`. Press **Play** and use
+**W/A/S/D** to move the capsule through the physics test. The input adapter is
+demo-only and can be replaced when the project gets a real character/input
+layer.

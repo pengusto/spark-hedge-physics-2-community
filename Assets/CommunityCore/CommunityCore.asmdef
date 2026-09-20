@@ -1,7 +1,9 @@
 {
   "name": "SparkHedgePhysics.CommunityCore",
   "rootNamespace": "",
-  "references": [],
+  "references": [
+    "Unity.InputSystem"
+  ],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
