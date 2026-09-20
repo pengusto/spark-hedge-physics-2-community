@@ -10,8 +10,10 @@
 [Pp]rofilerCaptures/
 [Qq]uickTest/
 .vs/
+.vscode/
 *.csproj
 *.sln
+*.slnx
 *.suo
 *.userprefs
 
