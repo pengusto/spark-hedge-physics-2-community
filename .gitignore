@@ -17,6 +17,9 @@
 *.suo
 *.userprefs
 
+# Local-only upstream asset review; never publish these files.
+/Assets/LocalReview/
+
 # Local source archive and private review material
 .scratch/
 *.rar
