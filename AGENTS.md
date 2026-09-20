@@ -12,7 +12,7 @@ This repository is a community mirror and a small Unity playground around Spark 
 
 ## Unity
 
-- The source archive names Unity `6000.3.16f1` as its editor version.
+- The active `main` project uses Unity `6000.5.6f1`. The source archive names Unity `6000.3.16f1`; that setting remains available on `legacy/unity-6000.3.16f1`.
 - Open the repository root as a Unity project and run `Assets/CommunityDemo.unity`.
 - A local Unity license is required for editor import and batch verification.
 

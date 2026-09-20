@@ -17,13 +17,13 @@ The active demo has no keyboard controller. It proves the physics loop and gives
 
 ## Setup
 
-1. Install Unity `6000.3.16f1` or test with a compatible Unity 6 editor.
+1. Install Unity `6000.5.6f1`, the editor version used by the current `main` branch.
 2. Add this repository's root folder in Unity Hub.
 3. Open `Assets/CommunityDemo.unity`.
 4. Press Play. Unity creates the demo objects at runtime.
 5. Add your own input, mesh, camera, animation, and level assets under a license you control.
 
-The original project may take a long time to import. This community project intentionally starts with a small source set so you can iterate before adding larger assets.
+The original project may take a long time to import. This community project intentionally starts with a small source set so you can iterate before adding larger assets. The `legacy/unity-6000.3.16f1` branch preserves the original project-version setting from the source archive.
 
 ## Upstream and credit
 
