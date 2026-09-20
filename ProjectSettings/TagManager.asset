@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - BoostPad
+  - EffectBox
+  - Bumpy
+  - O2pad
+  - Effector
+  - CarCollider
+  - RaceTrigger
+  - Pit
+  - EnvTrigger
+  - Water
+  - Sand
+  - Dirt
+  - Snow
+  - Grass
+  - Hazard
+  - Sand_Regolith
+  - Grass_Orange
+  - TranspZone
+  - WetRoad
+  - Hitbox
+  - Platform
+  - Target
+  - PitCollider
+  - NoDamageWall
+  - Gimmick
+  - Collectable
+  - Trigger
+  - HitBox
+  - Rail
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Car
+  - Water
+  - UI
+  - FakeSky
+  - Decal
+  - Background
+  - Default_Alt1
+  - Default_Alt2
+  - Default_Alt3
+  - Default_Alt4
+  - Character
+  - CarTrigger
+  - SpecialFX
+  - ToBeReplaced
+  - Player1Only
+  - Player2Only
+  - Collectable
+  - Rail
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Player
+  - Surface
+  - Decal
