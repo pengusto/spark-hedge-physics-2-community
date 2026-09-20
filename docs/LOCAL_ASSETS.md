@@ -17,6 +17,14 @@ The local review copy is useful for evaluating meshes, materials, characters,
 stages, and presentation. It is not part of the public community mirror and
 does not change the license or redistribution status of those files.
 
+The source archive also contains a real demo scene: `Assets/NOWHERE - CharacterTest.unity`.
+It is the archive's only build scene and depends on the original gameplay scripts,
+prefabs, and presentation assets. Keep that full archive as a separate local Unity
+project when you want to run the author's demo; copying only its art into this
+community project cannot reproduce the scene and can create duplicate script and
+GUID conflicts. The community project therefore keeps its own small `CommunityDemo`
+scene as the reproducible public sandbox.
+
 The active demo remains `Assets/CommunityDemo.unity`. Press **Play** and use
 **W/A/S/D** to move the capsule through the physics test. The input adapter is
 demo-only and can be replaced when the project gets a real character/input
